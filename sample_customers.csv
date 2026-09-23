@@ -1,0 +1,5 @@
+customer_id,name,email,monthly_spend,active
+C-1001,Acme Fitness,ops@acme.example,1200.50,true
+C-1002,Northwind Studio,owner@northwind.example,775,yes
+C-1003,,missing-name@example.com,500,true
+C-1002,Duplicate Studio,duplicate@example.com,100,false

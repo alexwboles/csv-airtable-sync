@@ -1,0 +1,16 @@
+{
+  "key_column": "customer_id",
+  "key_field": "External ID",
+  "field_mapping": {
+    "customer_id": "External ID",
+    "name": "Customer Name",
+    "email": "Email",
+    "monthly_spend": "Monthly Spend",
+    "active": "Active"
+  },
+  "required": ["customer_id", "name", "email"],
+  "types": {
+    "monthly_spend": "number",
+    "active": "boolean"
+  }
+}
